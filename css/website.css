@@ -186,7 +186,7 @@ header {
 }
 
 footer {
-    background-color: rgb(13, 13, 13);
+    background-color: rgb(99, 94, 94);
     padding: 20px 0;
 }
 
@@ -198,7 +198,7 @@ footer {
 }
 
 .footer-container a {
-    color: black;
+    color: whitesmoke;
 }
 
 .footer-container p:hover {
@@ -216,11 +216,13 @@ footer {
 .footer-column h3 {
     font-size: 22px;
     margin-bottom: 10px;
+    color: whitesmoke;
     
 }
 
 .footer-column p {
     margin-bottom: 8px;
+    color: whitesmoke;
 }
 
 .email-logo {
@@ -310,3 +312,18 @@ footer {
     margin-bottom: 5px;
 }
 
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #635f5f;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.search-bar button[type="submit"] {
+    padding: 8px 16px;
+}
