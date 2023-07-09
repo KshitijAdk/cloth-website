@@ -11,6 +11,7 @@
 html {
     background: whitesmoke;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 img {
@@ -325,5 +326,27 @@ footer {
 }
 
 .search-bar button[type="submit"] {
-    padding: 8px 16px;
+    padding: 6px 14px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 8px;
 }
+
+.search-bar button [type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 667px) {
+    
+    .nav-bar {
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
+  
