@@ -7,5 +7,6 @@ function togglePhotoList() {
     }
   }
 
-  const navContainer = document.querySelector('.nav-container');
+const navContainer = document.querySelector('.nav-container');
 navContainer.scrollLeft = navContainer.scrollWidth;
+
